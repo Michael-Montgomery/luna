@@ -1,0 +1,399 @@
+.home-wrapper {
+    height: 100vh;
+    z-index: 5;
+    background-image: url("https://cdn.jetsetmag.com/f8b547304926d4c3c25ad3c4f62c92b9.jpeg");
+    background-size: cover;
+    -webkit-animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -ms-animation: fadein 4s;
+    -o-animation: fadein 4s;
+    animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+h1 {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+    display: inline-block;
+}
+h2 {
+    display: inline;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+#home-nav, #blog-nav {
+    float: right;
+    margin-top: 30px;
+}
+#home-nav a {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#home-nav a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+#blog-name {
+    color: black;
+}
+#blog-sub {
+    color: black;
+}
+#blog-nav a {
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#blog-nav a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+#search-wrapper {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+#search-text {
+    width: 25vw;
+    margin-right: 5px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.2em;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px dotted;
+    min-width: 450px;
+}
+#search-icon {
+    font-size: 2.2em;
+}
+#blog-list {
+    text-align: center;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-wrapper {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.post-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4em;
+}
+.post-date {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.7em;
+    color: #909090;
+}
+.post-post {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    width: 85%;
+    text-align: center;
+}
+.contact-wrapper {
+    height: 100vh;
+    background-image: url("http://www.vickoktavian.com/wp-content/uploads/2015/08/LunaMarie-13.jpg");
+    background-size: cover;
+    z-index: 0;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    position: absolute;
+}
+.contact-overlay {
+    z-index: 10;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#contact-name {
+    color: white;
+    position: relative;
+    margin-top: 0;
+}
+#contact-sub {
+    color: white;
+}
+#contact-nav {
+    float: right;
+}
+#contact-nav a {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#contact-nav a:last-child, #home-nav a:last-child, #gallery-nav a:last-child, #blog-nav a:last-child {
+    display: none;
+}
+#contact-nav a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+.form-wrapper {
+    text-align: center;
+    margin-top: 100px;
+}
+.form-wrapper input, .form-wrapper textarea {
+    opacity: .4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    border: none;
+    outline: none;
+}
+.form-wrapper input:hover, .form-wrapper textarea:hover {
+    opacity: 1;
+}
+.form-wrapper input:focus, .form-wrapper textarea:focus {
+    opacity: 1;
+}
+.center {
+    text-align: center;
+}
+textarea {
+    height: 400px;
+    resize: none;
+}
+.half {
+    width: 30vw;
+    margin-bottom: 20px;
+}
+.full {
+    width: 60vw;
+    margin-bottom: 20px;
+}
+.form-wrapper button {
+    font-size: 2em;
+    border-radius: 50%;
+    opacity: .5;
+}
+#gallery-name {
+    color: black;
+}
+#gallery-sub {
+    color: black;
+}
+#gallery-nav {
+    float: right;
+    margin-top: 30px;
+}
+#gallery-nav a {
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#gallery-nav a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+#gallery-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 0;
+}
+#gallery-list li {
+    margin-bottom: 15px;
+}
+.pic-wrapper {
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.credit-wrapper {
+    height: 30px;
+    width: 300px;
+    background-color: black;
+    opacity: .5;
+}
+.credit-name {
+    font-family: 'Poiret One', cursive;
+    line-height: 30px;
+    color: white;
+    margin-left: 6px;
+    text-align: center;
+}
+#social-list {
+    list-style-type: none;
+    margin-top: 85vh;
+}
+#social-list li {
+    display: inline;
+    margin-right: 20px;
+
+}
+#social-list li a {
+    color: white;
+    font-size: 2em;
+    opacity: .5;
+}
+#social-list li a:hover {
+    opacity: 1;
+}
+.header {
+
+}
+.mini-wrapper {
+    height: 100vh;
+    z-index: 500;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/564x/21/93/cb/2193cbd4a07537c26d889f47dfed327e.jpg");
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    background-size: cover;
+    display: none;
+}
+.mini-nav-list {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+.mini-nav-list li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.mini-nav-list li:first-child, .mini-nav-list li:nth-child(3) {
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+}
+.mini-nav-list li:nth-child(2), .mini-nav-list li:last-child {
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+}
+
+.mini-nav-list li a {
+    font-size: 3em;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+.close {
+    float: right;
+    position: relative;
+    top: -315px;
+    font-size: 3em;
+}
+
+
+
+
+
+
+@media (max-width: 840px) {
+    .contact-wrapper {
+        background-position: center;
+    }
+    .home-wrapper {
+        background-position: center;
+        padding-bottom: 25px;
+    }
+    .credit-wrapper {
+        text-align: center;
+    }
+    #contact-nav a:first-child, #contact-nav a:nth-child(2), #contact-nav a:nth-child(3), #contact-nav a:nth-child(4),
+    #home-nav a:first-child, #home-nav a:nth-child(2), #home-nav a:nth-child(3), #home-nav a:nth-child(4), #gallery-nav a:first-child,
+    #gallery-nav a:nth-child(2), #gallery-nav a:nth-child(3), #gallery-nav a:nth-child(4), #blog-nav a:first-child,
+    #blog-nav a:nth-child(2), #blog-nav a:nth-child(3), #blog-nav a:nth-child(4)
+    {
+        display: none;
+    }
+    #home-nav, #gallery-nav, #blog-nav {
+        margin-top: 15px;
+    }
+    #social-list {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    #social-list li a {
+        opacity: .6;
+    }
+    #contact-nav a:last-child, #home-nav a:last-child {
+        display: inline;
+        opacity: .8;
+    }
+    #gallery-nav a:last-child, #blog-nav a:last-child {
+        display: inline;
+    }
+    #contact-nav a:last-child:hover, #home-nav a:last-child:hover, #gallery-nav a:last-child:hover,
+    #blog-nav a:last-child:hover
+
+    {
+        text-decoration: none;
+        border-bottom: none;
+    }
+    #contact-name, #gallery-name, h1 {
+        font-size: 2.5em;
+    }
+    #contact-sub, #gallery-sub, h2 {
+        display: none;
+    }
+    .half {
+        width: 90vw;
+    }
+    .full {
+        width: 90vw;
+    }
+    .form-wrapper textarea {
+        height: 200px;
+    }
+    .credit-wrapper {
+        width: 250px;
+        float: inherit;
+    }
+    #search-text {
+        min-width: 10px;
+        width: 50%;
+    }
+    #search-wrapper {
+        width: 100vw;
+    }
+    .post-title {
+    font-size: 3em;
+         }
+    .post-date {
+        font-size: 1em;
+    }
+    .post-post {
+        font-size: 1.4em;
+    }
+    .divider {
+        display: none;
+    }
+}
+
